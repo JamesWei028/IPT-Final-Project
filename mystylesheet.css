@@ -1,0 +1,132 @@
+body
+{
+    background-image: url(bg.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1
+{
+    background-image: url(bgh1.gif);
+    background-size: cover;
+    color: #DC143C;
+    font-style: normal;
+    font-family: 'Courier New', 'Monaco', monospace;
+    opacity: 80%;
+    border-radius: 5px;
+    text-shadow: 3px 3px 5px #000000;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+h2
+{
+    background-image: url(bgh1.gif);
+    color: #DC143C;
+    background-size: cover;
+    margin-left: 40%;
+    margin-right: 40%;
+    opacity: 80%;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+h3
+{
+    background-image: url(bgh1.gif);
+    color: #DC143C;
+    background-size: cover;
+    margin-left: 28%;
+    margin-right: 28%;
+    opacity: 80%;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+p
+{
+    background-image: url(effect.gif);
+    border-style: groove;
+    font-size: large;
+    color: #00008B;
+    font-style: normal;
+    font-family: 'Times New Roman',  'Georgia', serif;
+    opacity: 80%;
+    border-radius: 10px;
+    text-shadow: 3px 3px 5px #483d8b;
+    margin-top:5% ;
+    text-align: center;
+
+}
+.button
+{
+    height: 70px;
+    width: 70px;
+    background-image: url(emptyb.png);
+    border-radius: 5px;
+    font-size: 28px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    margin-left: 75px;
+
+}
+.bd
+{
+    background-image: url(bgbutton.png);
+    padding: 41px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5%;
+  }
+  video
+  {
+    opacity: 95%;
+  }
+  .bg
+  {
+    background-image: url(bgbutton.png);
+    padding: 41px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5%;
+  }
+  a
+  {
+    text-decoration: none;
+    color: #06ffd5;
+    opacity: 95%;
+    text-align: center;
+  }
+  #img
+{
+    position: relative;
+    top: -100px;
+    left: -130px;
+}
+
+tr
+{
+    background-image: url(tbg.gif);
+    background-size: cover;
+    color: #00008b;
+}
+th
+{
+
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 5px;
+}
+
+  img:hover{transform: scale(1.05);}
+  h1:hover {background-image: url(hoverh1.gif); transform: scale(1.05);}
+  h2:hover {background-image: url(hoverh1.gif); transform: scale(1.05);}
+  h3:hover {background-image: url(hoverh1.gif); transform: scale(1.05);}
+  th:hover{background-image: url(hoverh1.gif); transform: matrix3d(.3);}
+  button:hover{background-image: url(tbg.gif);transform: matrix3d(1.1);}
+    
+  
